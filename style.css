@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 1.1em;
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+header {
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+}
+
+header>h1 {
+    font-size: 2.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+}
+
+area {
+    outline: 1px solid red;
+
+}
+
+#mapa {
+    border-radius: 20px;
+}
+
+#info {
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+    width: 425px;
+
+}
