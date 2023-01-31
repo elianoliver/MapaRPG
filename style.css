@@ -7,40 +7,52 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: black;
 }
 
 
 header {
-    background-color: azure;
+    background-color: rgba(255, 255, 255, 0.226);
     padding: 10px;
     text-align: center;
 }
 
 header>h1 {
     font-size: 2.2em;
+    color: white;
+
 }
 
 main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 50px 0 50px;
+    margin: 50px 50px 0 50px;
+    gap: 50px;
 }
 
 area {
     outline: 1px solid red;
-
 }
 
 #mapa {
     border-radius: 20px;
+    width: 800px;
+
+}
+
+#indice-mapa{
+    width: 150px;
+    position: fixed;
+    left: 50px;
+    bottom: 0px;
+
 }
 
 #info {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 10px;
-    width: 425px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
