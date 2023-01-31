@@ -56,7 +56,18 @@ area {
 #info {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
     font-family: 'Courier New', Courier, monospace;
+}
 
+#info > h2{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 30px;
+}
+
+#info > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 50px;
 }
