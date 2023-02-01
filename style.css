@@ -74,3 +74,10 @@ area:focus{
     margin-bottom: 20px;
     text-indent: 50px;
 }
+
+#imagem-anya{
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+
+}
