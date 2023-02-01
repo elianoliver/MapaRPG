@@ -31,28 +31,30 @@ main {
     gap: 50px;
 }
 
-area {
-    outline: 1px solid red;
-}
-
+/* CONTAINER Q ENGLOBA O MAPA, INDICE E INFO*/
 #imagem-container{
     position: relative;
 }
 
-#mapa {
+/* IMAGEM DO MAPA */
+#mapa{
     border-radius: 20px;
-
 }
 
+area:focus{
+    outline: 1px solid red;
+}
+
+/* INDICE DO MAPA */
 #indice-mapa{
     position: absolute;
     z-index: 1;
     width: 200px;
     left: 0px;
     bottom: 5px;
-
 }
 
+/* INFORMAÇÃO */
 #info {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
