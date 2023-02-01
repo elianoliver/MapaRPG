@@ -1,12 +1,7 @@
-// PEGANDO MAPA
-const map = document.querySelector("map");
+var info = document.querySelector('#info')
 
-map.addEventListener("click", function (event) {
-    const target = event.target;
-
-    if (target.nodeName === "AREA") {
-        const name = target.getAttribute("alt");
-        console.log("Você clicou na coordenada:", name);
+function clicouno(regiao){
+    if(regiao == 'sul'){
+        info.innerHTML = '<h2>Região Sul</h2>'
     }
-})
-
+}

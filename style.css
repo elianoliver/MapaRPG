@@ -49,13 +49,14 @@ area:focus{
 #indice-mapa{
     position: absolute;
     z-index: 1;
-    width: 200px;
+    width: 180px;
     left: 0px;
     bottom: 5px;
 }
 
 /* INFORMAÇÃO */
 #info {
+    width: 700px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 30px;
