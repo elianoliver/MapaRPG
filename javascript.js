@@ -35,6 +35,6 @@ function clicouno(regiao){
 
     } else {
         info.innerHTML = '<h2>LESTE</h2>'
-        info.innerHTML += '<p> parece ser dois locais em um dependendo do horário que se visita, quando se existe sol, um convite para toda família desfrutar dos restaurantes, shoppings, praias e tudo mais, porem quando se anoitece, e se aproxima mais do mar, uma caixa de pandora com os 7 pecados se abre, com casinos, bares, casas noturnas, prostitutos e todo o prazer carnal mal visto perante ao Senhor.</p>'
+        info.innerHTML += '<p>Parece ser dois locais em um dependendo do horário que se visita, quando se existe sol, um convite para toda família desfrutar dos restaurantes, shoppings, praias e tudo mais, porem quando se anoitece, e se aproxima mais do mar, uma caixa de pandora com os 7 pecados se abre, com casinos, bares, casas noturnas, prostitutos e todo o prazer carnal mal visto perante ao Senhor.</p>'
     }
 }
