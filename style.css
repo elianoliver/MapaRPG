@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: JMH Typewriter;
-    src: url('JMH\ Typewriter.ttf');
+    src: url('fonts/JMH\ Typewriter.ttf');
 }
 
 body {
@@ -49,6 +49,7 @@ main {
 area:focus{
     outline: 1px solid red;
 }
+
 
 /* INDICE DO MAPA */
 #indice-mapa{
