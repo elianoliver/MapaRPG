@@ -17,6 +17,7 @@ body {
 
 
 header {
+    display: none;
     background-color: rgba(255, 255, 255, 0.226);
     padding: 10px;
     text-align: center;
@@ -32,44 +33,45 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px 0px 0px 0px;
-    gap: 80px;
+    margin: 0px 0px 0px 0px;
 }
 
-/* CONTAINER Q ENGLOBA O MAPA, INDICE E INFO*/
+/* CONTAINER Q ENGLOBA O MAPA, INDICE E INFO---------------------*/
 #imagem-container{
     position: relative;
 }
 
-/* IMAGEM DO MAPA */
-#mapa{
-    border-radius: 20px;
-}
+/* IMAGEM DO MAPA ------------------------------------------------*/
 
 area:focus{
     outline: 1px solid red;
 }
 
-
-/* INDICE DO MAPA */
+/* INDICE DO MAPA ------------------------------------------------*/
 #indice-mapa{
-    position: absolute;
+    position: fixed;
     z-index: 1;
-    width: 180px;
-    left: 0px;
+    width: 10vw;
+    left: 5px;
     bottom: 5px;
 }
 
 /* INFORMAÇÃO */
 #info {
-    width: 700px;
-    height: 901px;
-    position: relative;
+    opacity: 90%;
+    border: 2px solid black;
+
+    width: 20%;
 
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 30px;
+
     font-family: 'JMH Typewriter';
+    font-size: 0.8vw;
+
+    overflow: scroll;
+    z-index: 1;
 }
 
 #info > h2{
@@ -82,12 +84,10 @@ area:focus{
     font-size: 1em;
     text-align: justify;
     margin-bottom: 20px;
-    text-indent: 50px;
+    text-indent: 5%;
 }
 
-#imagem-anya{
-    position: absolute;
-    bottom: 10%;
-    left: 20%;
-    opacity: 0.11;
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }
