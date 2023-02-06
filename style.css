@@ -75,12 +75,12 @@ area:focus{
     overflow: scroll;
 }
 
-#info > h2{
+#info h2{
     text-align: center;
     padding-bottom: 30px;
 }
 
-#info > p{
+#info p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 5%;
@@ -90,3 +90,15 @@ area:focus{
     width: 0;
     height: 0;
 }
+
+/*REGIOES--------------------------------------------------*/
+.home{display: block;}
+.centro{display: none;}
+.docas{display: none;}
+.porto{display: none;}
+.hangar{display: none;}
+.sul{display: none;}
+.centro-publico{display: none;}
+.oeste{display: none;}
+.norte{display: none;}
+.leste{display: none;}
